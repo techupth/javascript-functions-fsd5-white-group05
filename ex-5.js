@@ -1,5 +1,7 @@
 // Start coding here
 
-const findMinNumber = Math.min(10, 20);
+const findMinNumber = (a, b) => {
+  return Math.min(a, b);
+};
 
-console.log(findMinNumber); // 10
+console.log(findMinNumber(10, 20)); // 10
